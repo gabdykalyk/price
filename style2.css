@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.price-plan {
+  width: 80%;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.price-plan li {
+  float: left;
+  width: 33.3%;
+  padding: 30px;
+}
+
+/* ВАШ КОД НИЖЕ */
+
+.price-card {
+  height: 530px;
+  background-color: aqua;
+  text-align: center;   
+  border-radius: 20px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.price-card.price_1 {
+    background: rgb(238,164,251);
+    background: linear-gradient(180deg, rgba(238,164,251,1) 0%, rgba(252,85,115,1) 100%);
+
+}
+
+.price-card.price_2 {
+    background: rgb(135,229,215);
+    background: linear-gradient(180deg, rgba(135,229,215,1) 0%, rgba(31,157,255,1) 100%);
+}
+
+.price-card.price_3 {
+    background: rgb(103,125,236);
+    background: linear-gradient(180deg, rgba(103,125,236,1) 0%, rgba(119,77,163,1) 100%);
+}
+
+.price {
+    background-color: #ffffff;
+    height: 330px;
+    width: 225px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.main__price {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-bottom: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.price__num, sup, .month {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.price__num {
+    color: #000000;
+    padding: 0;
+    font-size: 50px;
+}
+
+sup {
+    font-size: 30px;
+    padding-bottom: 8px;
+}
+
+.month {
+    padding-top: 22px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.price__text {
+    padding: 0 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 14px;
+    display: flex;
+}
+
+.yes {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.subscribe {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin: 25px auto;
+    transition: color 0.2s linear;
+}
+
+a {
+    text-decoration: none;
+}
+
+.subscribe:hover {
+    color: black;
+}
+
